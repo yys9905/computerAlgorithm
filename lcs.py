@@ -20,6 +20,7 @@ def make_matrix(x,y):
             temp.append(h)
         hm.append(temp)
     return s, hm
+    
 def solution(x,s,hm):
     locI = len(s)-1
     locJ = len(s[0])-1
